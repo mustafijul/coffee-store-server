@@ -8,7 +8,8 @@ const port = process.env.PORT || 4000;
 // middleware
 
 app.use(cors());
-app.use(express());
+// .json() use na koray matha nosto kori laise ekbare
+app.use(express.json());
 
 // ahTdd0X2JHk0c40c
 // CoffeeMaster
